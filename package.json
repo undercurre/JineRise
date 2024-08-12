@@ -6,12 +6,19 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
-    "start": "react-native start",
+    "start": "npx kill-port 8081 && react-native start",
     "test": "jest"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.74.5"
+    "@react-aria/utils": "^3.25.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/native": "^6.1.18",
+    "native-base": "^3.4.28",
+    "react": "^18.2.0",
+    "react-native": "0.74.5",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-svg": "^12.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
